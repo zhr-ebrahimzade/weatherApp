@@ -1,0 +1,107 @@
+h2 {
+  margin-top: 20px;
+  color: #272f37;
+}
+h1 {
+  margin-top: 25px;
+  color: #272f37;
+}
+.app-container {
+  background: linear-gradient(to bottom right, white, #96aed1);
+
+  width: 900px;
+  height: 650px;
+  margin: 100px auto;
+}
+.search-container {
+  margin: 30px;
+}
+.cities {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2b343d;
+  text-decoration: none;
+}
+.search-box {
+  margin: 60px 0 30px 20px;
+  padding: 10px;
+  width: 300px;
+}
+.search-btn {
+  display: block;
+  text-align: left;
+  position: relative;
+  left: 22px;
+  background-color: #272f37;
+  color: white;
+}
+.show-info {
+  padding-top: 60px;
+  width: 300px;
+  height: 400px;
+}
+.card-view {
+  width: 250px;
+  height: 300px;
+  text-align: center;
+}
+.fiveDays {
+  margin: 20px;
+}
+.weekdays {
+  font-size: 25px;
+  font-weight: 600;
+  color: #2b343d;
+}
+.days-icon {
+  font-size: 30px;
+  color: white;
+}
+.fiveIcons {
+  margin: 0 0 0 45px;
+}
+.wedn {
+  position: relative;
+  left: 27px;
+}
+.thurs {
+  position: relative;
+  left: 20px;
+}
+.tempeture {
+  position: relative;
+  left: 50px;
+}
+.unit {
+  color: #272f37;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 6px;
+  vertical-align: top;
+}
+.icon-thurs {
+  position: relative;
+  left: -15px;
+}
+.icon-frid {
+  position: relative;
+  left: -45px;
+}
+.text-temp {
+  font-size: 100px;
+  font-weight: 600;
+  color: #1b332d;
+}
+.icon-temp {
+  font-size: 50px;
+  font-weight: 600;
+  color: #1b332d;
+}
+a:hover {
+  color: #c3982e;
+}
+.search-btn:hover {
+  background-color: white;
+  color: #272f37;
+}
