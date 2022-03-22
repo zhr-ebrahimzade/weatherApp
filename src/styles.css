@@ -9,6 +9,7 @@ h1 {
 .app-container {
   background: linear-gradient(to bottom right, white, #96aed1);
 
+
   width: 900px;
   height: 650px;
   margin: 100px auto;
@@ -104,4 +105,19 @@ a:hover {
 .search-btn:hover {
   background-color: white;
   color: #272f37;
+}
+
+p {
+  color: #2b343d;
+  font-size: medium;
+  text-align: center;
+}
+.gitLink a {
+  color: #2b343d;
+  font-size: large;
+  text-decoration: none;
+}
+.gitLink a:hover {
+  color: #96aed1;
+  text-decoration: underline;
 }
