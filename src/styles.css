@@ -10,7 +10,7 @@ body {
   background-size: cover;
   color: #272f37;
   font-size: 16px;
-  padding: 20px 0;
+  padding: 100px 0;
 }
 p {
   color: #2b343d;
@@ -20,6 +20,7 @@ p {
 .app-container {
   /*   background: linear-gradient(to bottom right, white, #d1dcde); */
   background-color: transparent;
+
   width: 900px;
   height: 650px;
   margin: 0 auto;
