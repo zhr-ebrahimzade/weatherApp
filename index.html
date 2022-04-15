@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="app-container shadow-lg p-3 mb-5  rounded">
+      <div class="app-container shadow-lg p-3 mb-5 rounded">
         <div class="row">
           <div class="search-container col-6">
             <div class="row">
@@ -38,66 +38,88 @@
               </div>
             </div>
             <form id="city_form">
-              <div class="form-group ">
-                <input 
+              <div class="form-group">
+                <input
                   type="text"
-                  class="form-control search-box "
+                  class="form-control search-box"
                   id="city"
                   placeholder="Location"
-                  
+                  autocomplete="off"
                 />
               </div>
 
-              <input type="submit" class="btn  search-btn" value="search"/>
-        
+              <input type="submit" class="btn search-btn" value="search" />
             </form>
-            <h1>Citys Name</h1>
-            <h2>Thursday 15:03</h2>
+
+            <div class="col-6 search-info">
+              <h1 id="citynameh1">Citys Name</h1>
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span>km/h</li>
+              </ul>
+              <h2><span>Thursday </span> 15:03</h2>
+            </div>
           </div>
-          <div class="search-container show-info col-4 ">
-            <div class="card card-view shadow-lg p-3 mb-5  rounded ">
-              <div class="card-body ">
-                <p class="card-text ">
-                     <div class="icon-temp"><i class="fa-solid fa-sun"></i></div>
-                  <div  class="text-temp"><span id="currentCityTemp">20</span><span class="unit">°C</span></div>
-                </p>
+          <div class="search-container show-info col-4">
+            <div class="card card-view shadow-lg p-3 mb-5 rounded">
+              <div class="card-body card-text">
+                <div class="icon-temp"><i class="fa-solid fa-sun"></i></div>
+                <div class="text-temp">
+                  <span id="currentCityTemp">20</span
+                  ><span class="unit"
+                    ><a href="#" id="celsius-link">°C </a> |<a
+                      href="#"
+                      id="fahrenheit-link"
+                      >°F</a
+                    >
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="row fiveDays">
-          <div class="col weekdays">Monday</div>
-          <div class="col weekdays">Tuesday</div>
-          <div class="col weekdays">Wednesday</div>
-          <div class="col weekdays">Thursday</div>
-          <div class="col weekdays">Friday</div>
-        </div>
-        <div class="row fiveIcons">
-          <div class="col days-icon"><i class="fa-solid fa-sun"></i></div>
-          <div class="col days-icon">
-            <i class="fa-solid fa-cloud-rain"></i>
+        <div class="futureInfo">
+          <div class="row fiveDays">
+            <div class="col weekdays">Fri</div>
+            <div class="col weekdays">Sat</div>
+            <div class="col weekdays">Sun</div>
+            <div class="col weekdays">Mon</div>
+            <div class="col weekdays">Tue</div>
           </div>
-          <div class="col days-icon wedn">
-            <i class="fa-solid fa-snowflake"></i>
+          <div class="row fiveIcons">
+            <div class="col days-icon"><i class="fa-solid fa-sun"></i></div>
+            <div class="col days-icon">
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="col days-icon">
+              <i class="fa-solid fa-snowflake"></i>
+            </div>
+            <div class="col days-icon">
+              <i class="fa-solid fa-cloud-showers-heavy"></i>
+            </div>
+            <div class="col days-icon">
+              <i class="fa-solid fa-cloud-sun"></i>
+            </div>
           </div>
-          <div class="col days-icon thurs">
-            <i class="fa-solid fa-cloud-showers-heavy"></i>
+          <div class="row tempeture">
+            <div class="col weekdays">20°</div>
+            <div class="col weekdays">10°</div>
+            <div class="col weekdays">-10°</div>
+            <div class="col weekdays">12°</div>
+            <div class="col weekdays">27°</div>
           </div>
-          <div class="col days-icon"><i class="fa-solid fa-cloud-sun"></i></div>
-        </div>
-        <div class="row tempeture">
-          <div class="col weekdays">20<span class="unit">°C</span></div>
-          <div class="col weekdays">10<span class="unit">°C</span></div>
-          <div class="col weekdays">-10<span class="unit">°C</span></div>
-          <div class="col weekdays icon-thurs">12<span class="unit">°C</span></div>
-          <div class="col weekdays icon-frid">27<span class="unit">°C</span></div>
         </div>
       </div>
-        <p>
-          <span class="gitLink"><a href="https://github.com/zhr-ebrahimzade/weatherApp.git">Open-source</a></span> by Zahra Ebrahimzade
-        </p>
+      <p>
+        <span class="gitLink"
+          ><a href="https://github.com/zhr-ebrahimzade/weatherApp.git"
+            >Open-source</a
+          ></span
+        >
+        by Zahra Ebrahimzade
+      </p>
     </div>
-    
+
     <script src="index.js"></script>
   </body>
 </html>

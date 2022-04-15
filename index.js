@@ -22,7 +22,7 @@ h2.innerHTML=current_time(time);
 function  searchCity(event){
     event.preventDefault();
     let city_input=document.querySelector("#city");
-    let heading1=document.querySelector("h1");
+    let heading1=document.querySelector("#citynameh1");
     heading1.innerHTML=city_input.value;
     getApi(city_input.value);
     
